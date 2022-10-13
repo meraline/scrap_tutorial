@@ -11,8 +11,8 @@ with open("blank/index.html") as file:
 
 soup = BeautifulSoup(src, "lxml")
 
-title = soup.title
-print(title)
+# title = soup.title
+# print(title)
 # print(title.text)
 # print(title.string)
 
